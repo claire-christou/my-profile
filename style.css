@@ -1,0 +1,205 @@
+/*Colors and fonts*/
+body {
+	background: white;
+	color: rgb(50, 50, 50);
+	font-family: Helvetica;
+	font-size: 17px;
+	text-align: center;
+
+}
+
+h1 {
+	color: #4169E2;
+	font-family: "Roboto", sans-serif;
+  	font-weight: 900;
+  	font-style: normal;
+	font-size: 32px;
+	text-align: center;
+	border: 1px 
+}
+
+h2 {
+	color: #FF6F7E;
+	font-family: "Playwrite GB S", cursive;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+}
+
+h3 {
+	color: #FF9AA9;
+	font-family: "Playwrite GB S", cursive;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+}
+
+h4 {
+	color: #649B88;
+	font-family: "Playwrite GB S", cursive;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #4169E2;
+}
+a:hover { 
+	color: #FF9AA9;
+}
+
+
+/* Custom design with class*/
+.containter {
+	width: 700px;
+	margin: 40px auto;
+	padding: 40px;
+}
+
+@media (max-width: 960px) {
+	.container{
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	.container{
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	.container{
+		width: 300px;
+	}
+}
+
+
+.card {
+	padding: 40px;
+	width: 700px;
+	margin: 40px 0px;
+	box-shadow: 8px 8px rgba(0,0,0,0.07)
+
+}
+
+.profile {
+	width: 110px;
+	border-radius: 50%;	
+	border: 3px solid #4169E2;
+}
+
+.btn-lightblue {
+	background-color: #4169E2;
+	color: #eff8ff;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+.btn-lightblue:hover {
+	background-color: #eff8ff;
+	color: #4169E2;
+	border: 1px solid #4169E2;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+}
+}
+.btn-blue {
+	color: #0073B1;
+}
+.btn-electricblue {
+	color: #007CF7;
+}
+.btn-pink {
+	color: #D23E65;
+}
+
+
+/*Custom design with id*/
+
+#presentation {
+	background: #eff8ff;
+	padding: 4px;
+	border: 2px solid #4169E2;
+	border-radius: 10px;
+}
+
+#presentation p {
+	margin-bottom: 	25px;
+}
+#proexp {
+	background: #f7e8e9;
+	padding: 4px;
+	border: 2px solid #FF6F7E;
+	border-radius: 10px;
+}
+#proexp p {
+	margin-bottom: 	25px;
+}
+#volunteer {
+	background: #f7e8e9;
+	padding: 4px;
+	border: 2px solid #FF6F7E;
+	border-radius: 10px;
+}
+#volunteer p {
+	margin-bottom: 	25px;
+}
+#tennis {
+	background: #fcf7f9;
+	padding: 4px;
+	border: 2px solid #FF6F7E;
+	border-radius: 10px;
+}
+
+#tennis p {
+	margin-bottom: 	25px;
+}
+#family {
+	background: #fcf7f9;
+	padding: 4px;
+	border: 2px solid #FF9AA9;
+	border-radius: 10px;
+}
+#family p {
+	margin-bottom: 	25px;
+}
+#travel {
+	background: #fcf7f9;
+	padding: 4px;
+	border: 2px solid #FF9AA9;
+	border-radius: 10px;
+}
+#travel p {
+	margin-bottom: 	25px;
+}
+#follow {
+	background: #f4f9f5;
+	padding: 4px;
+	border: 2px solid #649B88;
+	border-radius: 10px;
+}
+#follow p {
+	margin-bottom: 	25px;
+}
+
+
+
